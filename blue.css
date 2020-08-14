@@ -1,0 +1,45 @@
+:root{
+	--mainColor:#15202B;
+	--secondaryColor:#192734;
+
+	--borderColor:#164D56;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#111921;
+
+	--buttonColor:#17a2b8;
+
+	--LinkPage: #3883ff;
+
+}
+
+p{
+    color: var(--secondaryText);
+}
+
+a{
+	text-decoration: none;
+	color:#17a2b8;
+}
+
+
+.nav-link{
+	font-family: His;
+	font-size: 5rem;
+	padding:1rem; 
+	color: var(--mainText);
+
+}
+
+.contact
+{
+	
+	color: var(--mainText);
+}
+
+

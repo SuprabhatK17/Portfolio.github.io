@@ -1,0 +1,306 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suprabhat 17</title>
+
+	<!--Font awesome CDN hover-->		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" />
+    <!--pop up-->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Animation-->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	
+	
+	 <!--css file for aos-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	 <!--contact validation-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+
+</head>
+<body>
+	<!--<div class = "main-div">
+		<div class = "center--div"></div>
+	</div>-->
+<div class="progressbar" id="progressbar"></div>
+<div class ="scrollPath" id="scrollPath"></div>
+
+
+	<header>
+		
+		<div class="menu-toggler">
+			<div class="bar half start"></div>
+			<div class="bar"></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav">
+			<ul class="nav-list">
+
+				<li>
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<a href="#services" class="nav-link">Services</a>
+				</li>
+				<li>
+					<a href="#portfolio" class="nav-link">Portfolio</a>
+				</li>
+				<li>
+					<a onclick="pop()" href="#experience" class="nav-link" id="pop">Experience</a>
+				</li>
+				<li>
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+
+			</ul>
+		</nav>
+			
+		<div class="landing-text">
+			<h1>Suprabhat Karmakar</h1>
+			<h6>Software Developer and UI | UX Designer</h6>
+
+			<div id="theme-options-wrapper">
+				<div data-mode="light" id="light-mode" class="theme-dot"></div>
+				<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+				<div data-mode="green" id="green-mode" class="theme-dot"></div>
+				<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+			</div>
+		</div>
+		
+
+	</header>
+
+	<section class="about" id = "about">
+		<div class="container">
+			<div class="profile-img has-margin-right"  data-aos="fade-right" data-aos-delay="300">
+				<img id="profile" src="sk.jpg " alt="">
+			</div>
+			<div class="about-details " data-aos="fade-left" data-aos-delay="600">
+				<div class="about-heading">
+					<h1 >About</h1>
+					<h6>Myself</h6>
+				</div>
+				<p>  I am a intermediate software programer.I try to maintain my hands on every programing language
+					basically  i am a learner now. I'm obsessed with making things and even more obsessed with making 
+					things better.
+				 </p>
+				 <p>You could comply with me on social media and github for delightful content</p>
+			
+				<div class="social-media">
+					
+					<a target="_blank" href="https://Instagram.com/suprabhatK17" class="icon-link">
+						<i class="fab fa-instagram"></i>
+					</a>
+					
+					<a target="_blank" href="https://twitter.com/Suprabhat_17" class="icon-link">
+						<i class="fab fa-twitter"></i>
+					</a>
+
+					<a target="_blank" href="https://github.com/SuprabhatK17" class="icon-link">
+						<i class="fab fa-github"></i>
+					</a>	
+					
+				</div>
+			</div>
+
+		</div>			
+
+	</section>
+
+<section class="services" id="services">
+	<div class="container">
+		<div class="section-heading">
+			<h1 class="serv"> Services</h1>
+			<h6>What I can do for you</h6>
+		</div>
+		<div class="my-skills">
+			<div class="skill" data-aos="fade-in" data-aos-delay="300">
+				<div class="icon-container">
+					<i class="fas fa-layer-group"></i>
+				</div>
+				<h1>Web Design /Development</h1>
+				<p> Boot straps, HTML, CSS, JS, ASP.Net, Django</p>
+			</div>
+			<div class="skill" data-aos="fade-in" data-aos-delay="600">
+				<div class="icon-container">
+					<i class="fas fa-code"></i>
+				</div>
+				<h1>Software Development</h1>
+				<p> Android,C#,Java,Python</p>
+
+			</div>
+			<div class="skill" data-aos="fade-in" data-aos-delay="900">
+				<div class="icon-container">
+					<i class="fas fa-chart-bar"></i>
+				</div>
+				<h1> Backend/Frontend</h1>
+				<p> MySql, Chart framework, Report's</p>
+
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<section class="portfolio" id="portfolio">
+	<div class="container">
+		<div class="section-heading">
+			<h1> Portfolio</h1>
+			<h6>View Some of my recent work</h6>
+		</div>
+		<div class="portfolio-item">
+			<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+				<img src="cover.jpg">
+			</div>
+			<div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+				<h6>Web Development</h6>
+				<h1>Blog Website</h1>
+				<p> This Portfolio is completely Responsive and built on django framework 
+					i am working on this website .as you will scroll down you will able to see
+					a fade right and fade left animation and for form submission i have used 
+					GetForm.io which is free and safe to use,please share your views and contribute in my 
+					service,Thankyou :)
+
+				</p>
+				<a href="details.html" class="cta">View Details</a>
+			</div>
+		</div>
+		<div class="portfolio-item">
+			<div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+				<h6>Web Projects</h6>
+				<h1>Project Layout</h1>
+				<p> Some of my web projects built on django framwork and simple html , css and javascript.
+					 </p>
+				<a href="details.html" class="cta">View Details</a>
+			</div>
+			<div class="portfolio-img " data-aos="fade-left" data-aos-delay="1200">
+				<img id="weblogo" src="weblogo.png" width="500" height="600">
+
+		</div>
+		
+		</div>
+		<div class="portfolio-item">
+			<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+				<img id="andr" src="inv.jpg" width="288px" height="512px">
+			</div>
+			<div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+				<h6>Application Projects</h6>
+				<h1>Android </h1>
+				<p> Simple Stock Inventory Management System in android studio 
+					Language used Java </p>
+				<a href="details.html" class="cta">View Details</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--<section class="experience" id="experience">
+	<div class="container">
+		<div class="section-heading">
+			<h1>Work Experience</h1>
+			<h6>Past and current jobs</h6>
+		</div>
+		<div class="timeline" data-aos="fade-down" data-aos-delay="300">
+			<ul>
+				<li class="date" data-date="2020 - Present">
+					<h1>Third Year </h1>
+					<p>I hope so This is My Last Year Of Computer Science</p>
+				</li>
+				<li class="date" data-date="2019 - 2020">
+					<h1>second Year </h1>
+					<p>This was My Second Year Of Computer Science</p>
+				</li>
+				<li class="date" data-date="2018 - 2019">
+					<h1>First Year </h1>
+					<p>This was My First Year Of Computer Science</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>-->
+
+<section class="contact" id="contact">
+	<div class="container">
+		<div class="section-heading">
+			<h1>Contact </h1>
+			<h6>Let's Work together   </h6>
+		</div>
+		<div class="intro-wrapper" data-aos="fade-up" data-aos-delay="300">
+			<div class="nav-wrapper" >
+				<div class="dots-wrapper" >
+					<div id ="dot-1" class="dot"></div>
+					<div id ="dot-2" class="dot"></div>
+					<div id ="dot-3" class="dot"></div>
+				
+				</div>
+				
+			</div>
+
+		
+			<div class="Contact-form">
+				<form id="form" action="https://getform.io/f/40bb33d2-5bff-4212-969e-590f1a8b4fa4" method="POST" data-aos="fade-up" data-aos-delay="300">
+					<label for="name">Name:</label>
+					<input type="text" id="name" class="name" name="name" placeholder="Enter your name..."required>
+					
+					<label for="email">Email:</label>
+					<input type="email" id="email" class="email"  name="email" placeholder="Enter your email..."required>
+					
+					<label for="service">Services:</label>
+					<input type="text" id="service" class="service"  name="service"  cols="2" rows="2" placeholder="How can i help you..."required >
+					
+					<!--<select name="services" id="service">
+						<option value="">Web Design</option>
+						<option value="">Software Development</option>
+						<option value="">UI/UX Design</option>
+					</select>-->
+					<label for="subject">Message:</label>
+					<textarea name="message" id="message" class="message" placeholder="give your valuable feedback/regards" cols="10" rows="10"></textarea>
+					<input type="submit"  class="submit" value="Submit" >
+					<div class="status"></div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+
+</section>
+
+<footer class="copyright">
+	<div class="up" id="up">
+		<i class="fas fa-chevron-up"></i>
+		
+	</div>
+	<p class="copy">&copy; 2020 Suprabhat Karmakar</p>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="main.js">
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
